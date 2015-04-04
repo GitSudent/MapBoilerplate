@@ -4,11 +4,25 @@
 <head>
   <title></title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="//js.arcgis.com/3.13//dijit/themes/claro/claro.css">
   <link rel="stylesheet" href="arcgis_js_api/library/3.13/3.13/esri/css/esri.css">
+
+    <!-- Web Framework CSS - Bootstrap (getbootstrap.com) and Bootstrap-map-js (github.com/esri/bootstrap-map-js) -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="//esri.github.io/bootstrap-map-js/src/css/bootstrapmap.css">
+
+  <style>
+    html, body, #mapDiv {
+      height: 100%;
+      width: 100%;
+    }
+  </style>
 </head>
 
 <body class="claro app-loading">
-<div id="mapDiv" dir="ltr"></div>
+
+<div id="mapDiv"></div>
+
 <script type="text/javascript" src="arcgis_js_api/library/3.13/3.13/init.js"></script>
 <script type="text/javascript">
 require(["esri/map", "dojo/domReady!"], function(Map) { 
