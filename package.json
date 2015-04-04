@@ -1,0 +1,27 @@
+{
+  "name": "map",
+  "version": "0.0.1",
+  "description": "map create",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/htoooth/MapBoilerplate.git"
+  },
+  "keywords": [
+    "map",
+    "esri"
+  ],
+  "author": "htoooth",
+  "license": "mit",
+  "bugs": {
+    "url": "https://github.com/htoooth/MapBoilerplate/issues"
+  },
+  "homepage": "https://github.com/htoooth/MapBoilerplate",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-connect": "^2.2.0"
+  }
+}
