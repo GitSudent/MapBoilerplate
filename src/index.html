@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="arcgis_js_api/library/3.13/3.13/esri/css/esri.css">
+</head>
+
+<body class="claro app-loading">
+<div id="mapDiv" dir="ltr"></div>
+<script type="text/javascript" src="arcgis_js_api/library/3.13/3.13/init.js"></script>
+<script type="text/javascript">
+require(["esri/map", "dojo/domReady!"], function(Map) { 
+  var map = new Map("mapDiv", {
+    center: [-118, 34.5],
+    zoom: 8,
+    basemap: "topo"
+  });
+});
+
+</script>
+
+</body>
+
+</html>
